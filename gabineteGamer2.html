@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+    <title>Kitsugo</title>
+       <meta charset = "UTF-8">
+       <link rel="stylesheet" href="KITSUGO.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Press+Start+2P&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <title> Kitsugo</title>
+ 
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class = "navbar">
+       <div class = "logo">
+            <img src = "Logo-Kitsugo.jpg" width= "400px">
+       </div>
+       <nav>
+        <div class="BOTAO">
+            <form action="#" method="get">
+              <input type="text" placeholder="PESQUISAR">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Produtos.html">Produtos</a></li>
+            <li><a href="Sobre.html">Sobre</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Carrinho-de-Compras.html">Carrinho</a></li>
+        </ul>
+       </nav>
+       </div>
+
+       <div class="produto-aba">
+        <ul class="aba-lista">  
+        </ul>
+        <div class="aba-conteudo">
+          <h1 id = "avcli">GABINETE GAMER - R$999,99</h1>
+          <div id="aba-descricao" class="aba-painel-ativo">
+            <img id = "cadG" src = "gabineteGamer6.jpg" width = "250px" height="250px">
+            <img  src = "gabineteGamer7.jpg" width = "250px" height="250px"> 
+            <img  src = "gabineteGamer8.jpg" width = "250px" height="250px">
+            <img  src = "gabineteGamer9.jpg" width = "300px" height="250px">
+            <img  src = "gabineteGamer10.jpg" width = "250px" height="250px">
+            <h3>Descrição do Produto</h3>
+            <p>O gabinete gamer é um equipamento fundamental para quem busca montar um computador potente e estiloso. Com design arrojado e materiais de alta qualidade, este produto oferece uma excelente estrutura para acomodar todos os componentes necessários para um PC de alto desempenho.
+
+                Com espaço suficiente para placas-mãe de todos os tamanhos, o gabinete gamer permite a instalação de placas de vídeo de última geração, processadores potentes e grande quantidade de memória RAM. Além disso, é possível adicionar diversos sistemas de refrigeração, garantindo que seu computador opere sempre em temperaturas ideais.
+                
+                Além de todas essas funcionalidades, o gabinete gamer também é um item muito estiloso, com design moderno, iluminação em LED e diversas opções de personalização. É o produto ideal para quem busca um equipamento completo, robusto e com visual incrível para sua estação de jogos ou trabalho. Não perca tempo e garanta já o seu gabinete gamer!</p>
+          </div>
+          <input id = "addcar" type="button" value="Adicionar ao Carrinho" />
+          <div id="aba-avaliacao" class="aba-painel">
+            <h3>Avaliações do Produto</h3>
+            <div class="produto-review">
+              <form class="review-form">
+                <h4 id = "avcli">DEIXE UMA AVALIAÇÃO</h4>
+                <div class="rating">
+                  <input type="radio" id="star5" name="avaliacao" value="5" /><label for="star5"><i class="fa fa-star"></i></label>
+                  <input type="radio" id="star4" name="avaliacao" value="4" /><label for="star4"><i class="fa fa-star"></i></label>
+                  <input type="radio" id="star3" name="avaliacao" value="3" /><label for="star3"><i class="fa fa-star"></i></label>
+                  <input type="radio" id="star2" name="avaliacao" value="2" /><label for="star2"><i class="fa fa-star"></i></label>
+                  <input type="radio" id="star1" name="avaliacao" value="1" /><label for="star1"><i class="fa fa-star"></i></label>
+                </div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario"></textarea>
+                <input type="button" value="Cadastrar" /> </form>
+              <div class="review-lista">
+                <h4 id = "avcli">AVALIAÇÃO DOS CLIENTES</h4>
+                <ul>
+                  <li>
+                    <div class="review-detalhes">
+                      <p class="review-nome">Ana Luisa</p>
+                      <p class="review-comentario">"Gabinete muito avançado e barato!"</p>
+                    </div>
+                  </li>
+                  <li>
+                    <br><br>
+                    <ul>
+                        <li>
+                          <div class="review-detalhes">
+                            <p class="review-nome">João Carlos</p>
+                            <p class="review-comentario">"Não achei grande coisa, muito caro!"</p>
+                          </div>
+                        </li>
+                        <li>
+                    <div class="review-avaliacao"></div>
+
+                  </div> </div></div></div></div></div>
+    <div class = "rodape">
+      <div class = "rodape-pagamento">
+          <img src = "pagamento.png" width = "900px" height="200px"></div>
+          <div class = "rodape-certificado">
+          <img id = "certificado" src = "certificado.jpg" width = "150px" height="80px">
+      </div>
+      </div>
+  
+      <div class="footer">
+      <div class="container-footer">
+      <div class="footer-col-1">
+      
+      <h1>Baixe nosso APP!</h1>
+      <h1>Fazer o download no seu dispositivo Android ou IOS.</h1>
+      <div id = "apps"><img src = "appleStore.jpg" width = "200px" height="70px">
+      <img src = "googlePlay.jpg" width = "200px" height="70px"></div></div>
+  
+          <div class="footer-col-2">
+              <nav>
+                  <h2 id = "siga">Nos siga nas redes sociais!</h2>
+                  <br>
+                  <ul>
+                      <li><a href="https://pt-br.facebook.com/">Facebook</a></li>
+                      <li><a href="https://www.twitter.com/">Twitter</a></li>
+                      <li><a href="https://www.instagram.com/">Instagram</a></li>
+                      <li><a href="">SAQ</a></li>
+                  </ul>
+              </nav>
+          </ul></div>
+          
+      </div><p class = "copyright">Copyright 2020</p></div>
+              
+  </div>
+  
+  </div>
+  </body>
+  
+  </html>

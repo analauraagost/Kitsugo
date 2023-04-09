@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+    <title>Kitsugo</title>
+       <meta charset = "UTF-8">
+       <link rel="stylesheet" href="KITSUGO.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Press+Start+2P&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <title> Kitsugo</title>
+ 
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class = "navbar">
+       <div class = "logo">
+            <img src = "Logo-Kitsugo.jpg" width= "400px">
+       </div>
+       <nav>
+        <div class="BOTAO">
+            <form action="#" method="get">
+              <input type="text" placeholder="PESQUISAR">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Produtos.html">Produtos</a></li>
+            <li><a href="Sobre.html">Sobre</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Carrinho-de-Compras.html">Carrinho</a></li>
+        </ul>
+       </nav>
+       </div>
+
+       <div class="produto-aba">
+        <ul class="aba-lista">  
+        </ul>
+        <div class="aba-conteudo">
+          <h1 id = "avcli">TECLADO GAMER - R$120,99</h1>
+          <div id="aba-descricao" class="aba-painel-ativo">
+            <img id = "cadG" src = "tecladoGamer2.png" width = "250px" height="250px">
+            <img  src = "tecladoGamer.png" width = "250px" height="250px"> 
+            <img  src = "tecladoGamer3.jpg" width = "250px" height="250px">
+            <img  src = "tecladoGamer4.jpg" width = "300px" height="250px">
+            <img  src = "tecladoGamer5.jpg" width = "250px" height="250px">
+            <h3>Descrição do Produto</h3>
+            <p>O teclado gamer é um equipamento essencial para os jogadores mais exigentes que buscam uma experiência de jogo imersiva e de alta performance. Com teclas mecânicas ultra responsivas, o teclado gamer proporciona maior precisão e velocidade durante as partidas, dando ao jogador uma vantagem competitiva sobre os adversários.
+
+                Com iluminação RGB personalizável, o teclado gamer é muito mais do que apenas um periférico. Ele é um item de estilo e personalidade, que pode ser adaptado ao seu gosto e ao ambiente de jogo. Com opções de macros programáveis, você pode customizar as funções das teclas para tornar as suas jogadas mais ágeis e eficientes.
+                
+                Além disso, o teclado gamer é construído com materiais de alta qualidade e durabilidade, garantindo a longevidade do produto. Com uma ergonomia cuidadosamente projetada, ele é confortável para longas sessões de jogos, evitando fadiga muscular e lesões por esforço repetitivo.
+                
+                Não importa se você é um jogador casual ou um profissional, o teclado gamer é uma escolha indispensável para quem busca o máximo desempenho nos jogos. Com ele, você pode elevar o seu nível de jogo e tornar suas partidas ainda mais emocionantes e competitivas. Invista em um teclado gamer de qualidade e sinta a diferença em sua jogabilidade.</p>
+          </div>
+          <input id = "addcar" type="button" value="Adicionar ao Carrinho" />
+          <div id="aba-avaliacao" class="aba-painel">
+            <h3>Avaliações do Produto</h3>
+            <div class="produto-review">
+              <form class="review-form">
+                <h4 id = "avcli">DEIXE UMA AVALIAÇÃO</h4>
+                <div class="rating">
+                  <input type="radio" id="star5" name="avaliacao" value="5" /><label for="star5"><i class="fa fa-star"></i></label>
+                  <input type="radio" id="star4" name="avaliacao" value="4" /><label for="star4"><i class="fa fa-star"></i></label>
+                  <input type="radio" id="star3" name="avaliacao" value="3" /><label for="star3"><i class="fa fa-star"></i></label>
+                  <input type="radio" id="star2" name="avaliacao" value="2" /><label for="star2"><i class="fa fa-star"></i></label>
+                  <input type="radio" id="star1" name="avaliacao" value="1" /><label for="star1"><i class="fa fa-star"></i></label>
+                </div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario"></textarea>
+                <input type="button" value="Cadastrar" /> </form>
+              <div class="review-lista">
+                <h4 id = "avcli">AVALIAÇÃO DOS CLIENTES</h4>
+                <ul>
+                  <li>
+                    <div class="review-detalhes">
+                      <p class="review-nome">Julio Tsui</p>
+                      <p class="review-comentario">"Teclado muito bom, deu falha uma hora mas acho que foi só o acaso!"</p>
+                    </div>
+                  </li>
+                  <li>
+                    <br><br>
+                    <ul>
+                        <li>
+                          <div class="review-detalhes">
+                            <p class="review-nome">Maria Luiza</p>
+                            <p class="review-comentario">"Teclado ótimo, achei o preço muito em conta!"</p>
+                          </div>
+                        </li>
+                        <li>
+                    <div class="review-avaliacao"></div>
+
+                  </div> </div></div></div></div></div>
+    <div class = "rodape">
+      <div class = "rodape-pagamento">
+          <img src = "pagamento.png" width = "900px" height="200px"></div>
+          <div class = "rodape-certificado">
+          <img id = "certificado" src = "certificado.jpg" width = "150px" height="80px">
+      </div>
+      </div>
+  
+      <div class="footer">
+      <div class="container-footer">
+      <div class="footer-col-1">
+      
+      <h1>Baixe nosso APP!</h1>
+      <h1>Fazer o download no seu dispositivo Android ou IOS.</h1>
+      <div id = "apps"><img src = "appleStore.jpg" width = "200px" height="70px">
+      <img src = "googlePlay.jpg" width = "200px" height="70px"></div></div>
+  
+          <div class="footer-col-2">
+              <nav>
+                  <h2 id = "siga">Nos siga nas redes sociais!</h2>
+                  <br>
+                  <ul>
+                      <li><a href="https://pt-br.facebook.com/">Facebook</a></li>
+                      <li><a href="https://www.twitter.com/">Twitter</a></li>
+                      <li><a href="https://www.instagram.com/">Instagram</a></li>
+                      <li><a href="">SAQ</a></li>
+                  </ul>
+              </nav>
+          </ul></div>
+          
+      </div><p class = "copyright">Copyright 2020</p></div>
+              
+  </div>
+  
+  </div>
+  </body>
+  
+  </html>

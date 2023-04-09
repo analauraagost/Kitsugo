@@ -1,0 +1,507 @@
+/*Página Inicial: */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding-top: 50px;
+}
+nav{
+    flex: 5;
+    text-align: right;
+}
+nav ul{
+    display: inline;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 25px;
+    padding-left: 20px;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 3px;
+    padding-right: 20px;
+}
+p{
+    color: blueviolet;
+}
+.BOTAO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+  }
+  
+  .BOTAO input[type=text] {
+    padding: 10px;
+    border: none;
+    font-size: 17px;
+    width: 200px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .BOTAO button {
+    padding: 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .BOTAO button:hover {
+    background: #ccc;
+  }
+ 
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+    color: black;
+}
+.row{
+    display: flex;
+    align-items: left;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.col-2{
+    flex-basis: 50%;
+}
+.col-2{
+    padding-bottom: 50px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+#texto{
+    color: purple;
+    font-size: 30px;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    background: orange;
+    color: black;
+    padding: 8px 30px;
+    border-radius: 0%;
+    transition: background 0.5s;
+    padding: 10px;
+    font-family: 'Odibee Sans', cursive;
+}
+#produtos-nome{
+    padding-top: 150px;
+    color: orange;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.header{
+    background: black;
+}
+.rowprodutos{
+    font-family: 'Odibee Sans', cursive;
+    display: flex;
+}
+h4{
+    color: whitesmoke;
+    font-weight: normal;
+    text-align: center;
+}
+.rowprodutos{
+    font-family: 'Odibee Sans', cursive;
+    color:indigo;
+    font-size: 40px;
+    display:inline-flex;
+    margin-left: 70px;
+    
+}
+.col-3{
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+.col-3:hover{
+    transform: translateY(-5px);
+}
+.rating{
+    color: orange;
+}
+.rodape{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+.rodape-certificado{
+    padding-top: 60px;
+}
+.footer{
+    background: orange;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 25px;
+    padding-left: 100px;
+    font-family: 'Odibee Sans', cursive;
+    color:indigo;
+    letter-spacing: 3px;
+}
+.footer-col-1{
+    padding-left: 100px;
+}
+.container-footer{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+#siga{
+    text-align: center;
+    font-size: 30px;
+}
+.footer hr{
+    border: none;
+    background: white;
+}
+.copyright{
+    text-align: center;
+    font-size: 20px;
+    color: indigo;
+}
+nav{
+    font-family: 'Odibee Sans', cursive;
+    color:indigo;
+    letter-spacing: 5px;
+    padding-left: 300px;
+}
+#texto{
+    text-align: left;
+}
+
+
+/* Sobre: */
+
+#titulo-sobre{
+    color: orange;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+.column{
+    width: 33.3%;
+    padding: 0 8px;
+}
+.card {
+    padding-left: 80px;
+    padding-bottom: 150px;
+}
+.title {
+    color: orange;
+    font-size: 38px;
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    width: 100%;
+}
+.button:hover {
+    background-color: #555;
+}
+@media screen and (max-width: 650px) {
+.column {
+      width: 100%;
+      display: block;
+}
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 3px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 3px;
+    color: blueviolet;
+}
+
+/* Contato: */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: orange;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+input[type=submit]:hover {
+    background-color: orange;
+}
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
+label{
+    font-size: 30px;
+    color: orange;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 3px;
+}
+  input{
+    font-size: 30px;
+    color: indigo;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 3px;
+}
+option{
+    font-size: 30px;
+    color: indigo;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 3px;
+}
+#objetivo{
+    font-size: 30px;
+    color: indigo;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 3px;
+}
+
+/* login e cadastro do usuário: */
+
+#login-cadastro{
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    text-align: center;
+}
+#login{
+    padding: 30px;
+    background-color: indigo;
+}
+#cadastro{
+    padding: 30px;
+    background-color: indigo;
+}
+#login-cad{
+    color:#ccc;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 5px;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+/* Carrinho: */
+
+#filho{
+    display: flex;
+    justify-content: space-around;
+    justify-items:center;
+    padding: 100px;
+}
+#meucarrinho{
+    background-color:#ccc;
+    display: flex;
+    padding: 50px;
+    max-height: 1200px;
+
+}
+#resumopedido{
+    display: flex;
+    background-color:#ccc;
+    max-height: 600px;
+    padding: 50px;
+}
+#carrinho-nomes{
+    font-family: 'Odibee Sans', cursive;
+    color: indigo;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#p1{
+    font-family: 'Odibee Sans', cursive;
+    color: black;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+#Continuar{
+    padding-left: 90px;
+}
+
+
+/* Finalizar Compra: */
+
+.row {
+    display: flex;
+    margin: 0;
+}
+.col-25 {
+    flex: 25%;
+min-width: 490px;}
+.col-50 {
+    flex: 50%;
+}
+.col-75 {
+    flex: 75%;
+}
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+  
+.container #finped{
+    background-color:#ccc;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+.btn {
+    background-color: orange;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 17px;
+}
+.btn:hover {
+    background-color: orange;
+}
+span.price {
+    float: right;
+    color: grey;
+}
+@media (max-width: 800px){
+.row {
+    flex-direction: column-reverse;
+}}
+
+
+/* Produtos: */
+
+.container-produto{
+    width: 100%;
+    background-color: orange;
+}
+
+.galeria{
+    flex-basis: 47%;
+    background: #ccc;  
+}
+.galeria img{
+    width: 100%;
+    display: block;
+}
+.detalhes{
+    flex-basis: 53%;
+    background-color: #ccc;
+    padding: 40px;
+    padding-left: 60px;
+}
+ 
+#produtos {
+    padding-left: 1000px;
+}
+
+
+
+
+.aba-conteudo {
+    background-color: #0a0418d8;
+    padding: 20px;
+  }
+  
+
+  
+  .rating {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating input:checked ~ label {
+    color: white;
+  }
+  
+#avcli {
+    color: orangered;
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: 'Press Start 2P', cursive;padding: 50px;
+    justify-content: center;
+    align-self: center;
+    padding: 100px;
+    text-align: center;
+  }
+
+#cadG {
+    margin-left: 70px;
+}
+ 
+  #addcar{
+    margin-left: 570px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
